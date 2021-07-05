@@ -1,15 +1,22 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0px;
+}
+.bodyy{
+    margin-top: 90px;
 }
 h1 {
     font-size: 50px;
+}
+.pg{
+    margin-bottom: 30px;
 }
 .header{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -24,9 +31,14 @@ section{
     padding: 10px 40px;
     color: white;
     font-weight: 700;
-    border-radius: 90px;
+    border-radius: 5px;
 }
 .banner {
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+    background:url(images/top-banner.png) no-repeat;
+}
+.Reaching-the-sky{
+    display:flex;
+}
+.sky{
+    background: url(images/dream-bg.png) no-repeat right
 }
