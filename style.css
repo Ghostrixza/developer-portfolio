@@ -8,13 +8,16 @@ body{
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .pg{
     margin-bottom: 30px;
 }
 .header{
     color: orange;
 }
-section{
+.flx-ctr{
     display: flex;
     margin-bottom: 120px;
 }
@@ -41,4 +44,29 @@ section{
 }
 .sky{
     background: url(images/dream-bg.png) no-repeat right
+}
+.exp-itm {
+    width: 40%;
+    margin: 0 5% 0 5%;
+    padding: 0 0 0 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}
+.exp {
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+#stack-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(140, 4, 140), tomato);
+    border-image-slice: 1;
+}
+#bby-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1; 
+}
+footer {
+    text-align: center;
 }
